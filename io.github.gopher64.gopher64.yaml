@@ -1,6 +1,6 @@
 app-id: io.github.gopher64.gopher64
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: gopher64
 rename-icon: gopher64
@@ -22,8 +22,8 @@ modules:
       - install -D io.github.gopher64.gopher64.metainfo.xml -t /app/share/metainfo
     sources:
       - type: archive
-        url: https://github.com/gopher64/gopher64/releases/download/v0.1.1/gopher64-linux.zip
-        sha256: 9d0d4415e202dae05257ca2358d8950770b59af27673fbae245dac512805511e
+        url: https://github.com/gopher64/gopher64/releases/download/v0.1.2/gopher64-linux.zip
+        sha256: 6d5268f90c1250b49dd6ec30f5c1391f3503cbb74dff1f0526ae02e930395b06
         x-checker-data:
           is-main-source: true
           type: json
